@@ -11,7 +11,10 @@
 
 <!-- Description of Template -->
 <p>
- Lorem ipsume
+ There are a few important factors wherein developers often get stuck and are clueless in selecting the best template. Here, an amazing <a href="https://www.wrappixel.com/templates/category/bootstrap-admin-templates/">free admin panel template bootstrap download</a> solves all problems with that. First and foremost it is available for free and secondly, it offers a wide variety of components, elements, features, and widgets.
+</p>
+<p>
+  The build of this stunning template is with modular design and based on the Bootstrap 4 framework as well as SaSS Base CSS. Additionally, it offers a profile page, Google Map integration, easy customization options, basic table examples, and creative font icons. This admin template bootstrap free online has fully responsive pages and offers lots of other options. For commercial purposes, you can check out the pro version of Elegant Bootstrap Admin Lite right away.
 </p>
 
 <!-- Resources of Template -->
