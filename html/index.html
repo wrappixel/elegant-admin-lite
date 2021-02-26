@@ -7,7 +7,7 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, AdminWrap lite admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, Elegant admin lite design, Elegant admin lite dashboard bootstrap 4 dashboard template">
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Elegant lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Elegant admin lite design, Elegant admin lite dashboard bootstrap 5 dashboard template">
     <meta name="description"
         content="Elegant Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
@@ -78,7 +78,7 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav me-auto">
                         <!-- This is  -->
                         <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light"
                                 href="javascript:void(0)"><i class="ti-menu"></i></a></li>
@@ -99,8 +99,9 @@
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href=""
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
                                     src="../assets/images/users/1.jpg" alt="user" class="img-circle" width="30"></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
@@ -118,9 +119,9 @@
         <aside class="left-sidebar">
             <div class="d-flex no-block nav-text-box align-items-center">
                 <span><img src="../assets/images/logo-icon.png" alt="elegant admin template"></span>
-                <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)"><i
+                <a class="waves-effect waves-dark ms-auto d-none d-lg-block text-white" href="javascript:void(0)"><i
                         class="ti-menu"></i></a>
-                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i
+                <a class="nav-toggler waves-effect waves-dark ms-auto d-block d-lg-none text-white" href="javascript:void(0)"><i
                         class="ti-menu ti-close"></i></a>
             </div>
             <!-- Sidebar scroll-->
@@ -142,9 +143,9 @@
                                     class="fa fa-bookmark-o"></i><span class="hide-menu"></span>Blank</a></li>
                         <li> <a class="waves-effect waves-dark" href="pages-error-404.html" aria-expanded="false"><i
                                     class="fa fa-question-circle"></i><span class="hide-menu"></span>404</a></li>
-                        <div class="text-center m-t-30">
-                            <a href="https://wrappixel.com/templates/elegant-admin/"
-                                class="btn waves-effect waves-light btn-success hidden-md-down"> Upgrade to Pro</a>
+                        <div class="text-center mt-4">
+                            <a href="https://www.wrappixel.com/templates/elegant-admin/"
+                                class="btn waves-effect waves-light btn-success hidden-md-down text-white"> Upgrade to Pro</a>
                         </div>
                     </ul>
                 </nav>
@@ -170,14 +171,14 @@
                     <div class="col-md-5 align-self-center">
                         <h4 class="text-themecolor">Dashboard</h4>
                     </div>
-                    <div class="col-md-7 align-self-center text-right">
+                    <div class="col-md-7 align-self-center text-end">
                         <div class="d-flex justify-content-end align-items-center">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
                                 <li class="breadcrumb-item active">Dashboard</li>
                             </ol>
-                            <a class="btn btn-success d-none d-lg-block m-l-15"
-                                href="https://wrappixel.com/templates/elegant-admin/"> Upgrade To Pro</a>
+                            <a class="btn btn-success d-none d-lg-block ms-3 text-white"
+                                href="https://www.wrappixel.com/templates/elegant-admin/"> Upgrade To Pro</a>
                         </div>
                     </div>
                 </div>
@@ -191,9 +192,9 @@
                     <div class="col-lg-8">
                         <div class="card oh">
                             <div class="card-body">
-                                <div class="d-flex m-b-30 align-items-center no-block">
+                                <div class="d-flex mb-4 align-items-center no-block">
                                     <h5 class="card-title ">Yearly Sales</h5>
-                                    <div class="ml-auto">
+                                    <div class="ms-auto">
                                         <ul class="list-inline font-12">
                                             <li><i class="fa fa-circle text-info"></i> Iphone</li>
                                             <li><i class="fa fa-circle text-primary"></i> Ipad</li>
@@ -203,15 +204,15 @@
                                 <div id="morris-area-chart" style="height: 350px;"></div>
                             </div>
                             <div class="card-body bg-light">
-                                <div class="row text-center m-b-20">
-                                    <div class="col-lg-4 col-md-4 m-t-20">
-                                        <h2 class="m-b-0 font-light">6000</h2><span class="text-muted">Total sale</span>
+                                <div class="row text-center mb-3">
+                                    <div class="col-lg-4 col-md-4 mt-3">
+                                        <h2 class="mb-0 font-light">6000</h2><span class="text-muted">Total sale</span>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 m-t-20">
-                                        <h2 class="m-b-0 font-light">4000</h2><span class="text-muted">Iphone</span>
+                                    <div class="col-lg-4 col-md-4 mt-3">
+                                        <h2 class="mb-0 font-light">4000</h2><span class="text-muted">Iphone</span>
                                     </div>
-                                    <div class="col-lg-4 col-md-4 m-t-20">
-                                        <h2 class="m-b-0 font-light">2000</h2><span class="text-muted">Ipad</span>
+                                    <div class="col-lg-4 col-md-4 mt-3">
+                                        <h2 class="mb-0 font-light">2000</h2><span class="text-muted">Ipad</span>
                                     </div>
                                 </div>
                             </div>
@@ -222,7 +223,7 @@
                             <div class="card-body">
                                 <h5 class="card-title">Today's Schedule</h5>
                                 <h6 class="card-subtitle">check out your daily schedule</h6>
-                                <div class="steamline m-t-40">
+                                <div class="steamline mt-5">
                                     <div class="sl-item">
                                         <div class="sl-left bg-success"> <i class="fa fa-user"></i></div>
                                         <div class="sl-right">
@@ -263,9 +264,9 @@
                                             </div>
                                             <div class="desc">Approve meeting with tiger
                                                 <br><a href="javascript:void(0)"
-                                                    class="btn m-t-10 m-r-5 btn-rounded btn-outline-success">Apporve</a>
+                                                    class="btn mt-2 me-1 btn-rounded btn-outline-success">Apporve</a>
                                                 <a href="javascript:void(0)"
-                                                    class="btn m-t-10 btn-rounded btn-outline-danger">Refuse</a> </div>
+                                                    class="btn mt-2 btn-rounded btn-outline-danger">Refuse</a> </div>
                                         </div>
                                     </div>
                                 </div>
@@ -286,8 +287,8 @@
                                         <h5 class="card-title">Sales Overview</h5>
                                         <h6 class="card-subtitle">Check the monthly sales </h6>
                                     </div>
-                                    <div class="ml-auto">
-                                        <select class="custom-select b-0">
+                                    <div class="ms-auto">
+                                        <select class="form-select b-0">
                                             <option>January</option>
                                             <option value="1">February</option>
                                             <option value="2" selected="">March</option>
@@ -297,7 +298,7 @@
                                 </div>
                             </div>
                             <div class="table-responsive">
-                                <table class="table table-hover">
+                                <table class="table table-hover v-middle no-wrap">
                                     <thead>
                                         <tr>
                                             <th class="text-center">#</th>
@@ -310,55 +311,55 @@
                                         <tr>
                                             <td class="text-center">1</td>
                                             <td class="txt-oflo">Elite admin</td>
-                                            <td class="txt-oflo">April 18, 2017</td>
+                                            <td class="txt-oflo">April 18, 2021</td>
                                             <td><span class="text-success">$24</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">2</td>
                                             <td class="txt-oflo">Real Homes WP Theme</td>
-                                            <td class="txt-oflo">April 19, 2017</td>
+                                            <td class="txt-oflo">April 19, 2021</td>
                                             <td><span class="text-info">$1250</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">3</td>
                                             <td class="txt-oflo">Ample Admin</td>
-                                            <td class="txt-oflo">April 19, 2017</td>
+                                            <td class="txt-oflo">April 19, 2021</td>
                                             <td><span class="text-info">$1250</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">4</td>
                                             <td class="txt-oflo">Medical Pro WP Theme</td>
-                                            <td class="txt-oflo">April 20, 2017</td>
+                                            <td class="txt-oflo">April 20, 2021</td>
                                             <td><span class="text-danger">-$24</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">5</td>
                                             <td class="txt-oflo">Hosting press html</td>
-                                            <td class="txt-oflo">April 21, 2017</td>
+                                            <td class="txt-oflo">April 21, 2021</td>
                                             <td><span class="text-success">$24</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">6</td>
                                             <td class="txt-oflo">Digital Agency PSD</td>
-                                            <td class="txt-oflo">April 23, 2017</td>
+                                            <td class="txt-oflo">April 23, 2021</td>
                                             <td><span class="text-danger">-$14</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">7</td>
                                             <td class="txt-oflo">Helping Hands WP Theme</td>
-                                            <td class="txt-oflo">April 22, 2017</td>
+                                            <td class="txt-oflo">April 22, 2021</td>
                                             <td><span class="text-success">$64</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">8</td>
                                             <td class="txt-oflo">Helping Hands WP Theme</td>
-                                            <td class="txt-oflo">April 22, 2017</td>
+                                            <td class="txt-oflo">April 22, 2021</td>
                                             <td><span class="text-success">$64</span></td>
                                         </tr>
                                         <tr>
                                             <td class="text-center">9</td>
                                             <td class="txt-oflo">Ample Admin</td>
-                                            <td class="txt-oflo">April 19, 2017</td>
+                                            <td class="txt-oflo">April 19, 2021</td>
                                             <td><span class="text-info">$1250</span></td>
                                         </tr>
                                     </tbody>
@@ -497,7 +498,7 @@
         <!-- footer -->
         <!-- ============================================================== -->
         <footer class="footer">
-            © 2020 Elegent Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+            © 2021 Elegent Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
@@ -511,8 +512,7 @@
     <!-- ============================================================== -->
     <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap popper Core JavaScript -->
-    <script src="../assets/node_modules/popper/popper.min.js"></script>
-    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
     <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
     <!--Wave Effects -->

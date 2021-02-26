@@ -7,7 +7,7 @@
     <!-- Tell the browser to be responsive to screen width -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="keywords"
-        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 4 admin, bootstrap 4, css3 dashboard, bootstrap 4 dashboard, AdminWrap lite admin bootstrap 4 dashboard, frontend, responsive bootstrap 4 admin template, Elegant admin lite design, Elegant admin lite dashboard bootstrap 4 dashboard template">
+        content="wrappixel, admin dashboard, html css dashboard, web dashboard, bootstrap 5 admin, bootstrap 5, css3 dashboard, bootstrap 5 dashboard, Elegant lite admin bootstrap 5 dashboard, frontend, responsive bootstrap 5 admin template, Elegant admin lite design, Elegant admin lite dashboard bootstrap 5 dashboard template">
     <meta name="description"
         content="Elegant Admin Lite is powerful and clean admin dashboard template, inpired from Bootstrap Framework">
     <meta name="robots" content="noindex,nofollow">
@@ -71,7 +71,7 @@
                     <!-- ============================================================== -->
                     <!-- toggle and nav items -->
                     <!-- ============================================================== -->
-                    <ul class="navbar-nav mr-auto">
+                    <ul class="navbar-nav me-auto">
                         <!-- This is  -->
                         <li class="nav-item hidden-sm-up"> <a class="nav-link nav-toggler waves-effect waves-light"
                                 href="javascript:void(0)"><i class="ti-menu"></i></a></li>
@@ -92,8 +92,9 @@
                         <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle text-muted waves-effect waves-dark" href=""
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
+                                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img
                                     src="../assets/images/users/1.jpg" alt="user" class="img-circle" width="30"></a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"></ul>
                         </li>
                         <!-- ============================================================== -->
                         <!-- User profile and search -->
@@ -111,9 +112,9 @@
         <aside class="left-sidebar">
             <div class="d-flex no-block nav-text-box align-items-center">
                 <span><img src="../assets/images/logo-icon.png" alt="elegant admin template"></span>
-                <a class="waves-effect waves-dark ml-auto hidden-sm-down" href="javascript:void(0)"><i
+                <a class="waves-effect waves-dark ms-auto d-none d-lg-block text-white" href="javascript:void(0)"><i
                         class="ti-menu"></i></a>
-                <a class="nav-toggler waves-effect waves-dark ml-auto hidden-sm-up" href="javascript:void(0)"><i
+                <a class="nav-toggler waves-effect waves-dark ms-auto d-block d-lg-none text-white" href="javascript:void(0)"><i
                         class="ti-menu ti-close"></i></a>
             </div>
             <!-- Sidebar scroll-->
@@ -135,9 +136,9 @@
                                     class="fa fa-bookmark-o"></i><span class="hide-menu"></span>Blank</a></li>
                         <li> <a class="waves-effect waves-dark" href="pages-error-404.html" aria-expanded="false"><i
                                     class="fa fa-question-circle"></i><span class="hide-menu"></span>404</a></li>
-                        <div class="text-center m-t-30">
-                            <a href="https://wrappixel.com/templates/adminwrap/"
-                                class="btn waves-effect waves-light btn-success hidden-md-down"> Upgrade to Pro</a>
+                        <div class="text-center mt-4">
+                            <a href="https://www.wrappixel.com/templates/elegant-admin/"
+                                class="btn waves-effect waves-light btn-success hidden-md-down text-white"> Upgrade to Pro</a>
                         </div>
                     </ul>
                 </nav>
@@ -163,14 +164,14 @@
                     <div class="col-md-5 align-self-center">
                         <h4 class="text-themecolor">Table Basic</h4>
                     </div>
-                    <div class="col-md-7 align-self-center text-right">
+                    <div class="col-md-7 align-self-center text-end">
                         <div class="d-flex justify-content-end align-items-center">
                             <ol class="breadcrumb">
                                 <li class="breadcrumb-item"><a href="javascript:void(0)">Home</a></li>
                                 <li class="breadcrumb-item active">Table Basic</li>
                             </ol>
-                            <button type="button" class="btn btn-success d-none d-lg-block m-l-15"> Upgrade To
-                                Pro</button>
+                            <a class="btn btn-success d-none d-lg-block ms-3 text-white"
+                                href="https://www.wrappixel.com/templates/elegant-admin/"> Upgrade To Pro</a>
                         </div>
                     </div>
                 </div>
@@ -263,7 +264,7 @@
         <!-- footer -->
         <!-- ============================================================== -->
         <footer class="footer">
-            © 2020 Elegent Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
+            © 2021 Elegent Admin by <a href="https://www.wrappixel.com/">wrappixel.com</a>
         </footer>
         <!-- ============================================================== -->
         <!-- End footer -->
@@ -277,8 +278,7 @@
     <!-- ============================================================== -->
     <script src="../assets/node_modules/jquery/jquery-3.2.1.min.js"></script>
     <!-- Bootstrap tether Core JavaScript -->
-    <script src="../assets/node_modules/popper/popper.min.js"></script>
-    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="../assets/node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
     <!-- slimscrollbar scrollbar JavaScript -->
     <script src="dist/js/perfect-scrollbar.jquery.min.js"></script>
     <!--Wave Effects -->
