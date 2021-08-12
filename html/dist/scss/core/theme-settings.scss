@@ -4,28 +4,27 @@ Fixed -sidebar
 ******************/
 
 .fixed-sidebar {
-    .left-sidebar {
-        position: fixed;
-    }
+  .left-sidebar {
+    position: fixed;
+  }
 
-    &.mini-sidebar {
-        .navbar-collapse,
-        .footer {
-            margin-left: 70px;
-        }
-
+  &.mini-sidebar {
+    .navbar-collapse,
+    .footer {
+      margin-left: 70px;
     }
+  }
 }
 
-@media(max-width:767px) {
-    .fixed-sidebar.mini-sidebar {
-        .navbar-header {
-            position: relative;
-        }
-        .navbar-collapse {
-            margin-left: 0px;
-        }
+@media (max-width: 767px) {
+  .fixed-sidebar.mini-sidebar {
+    .navbar-header {
+      position: relative;
     }
+    .navbar-collapse {
+      margin-left: 0px;
+    }
+  }
 }
 
 /*******************
@@ -33,69 +32,67 @@ Fixed -Header
 ******************/
 
 .fixed-header {
-    .topbar {
-        position: fixed;
-        width: 100%;
-    }
-    .page-wrapper {
-        padding-top: 67px;
-    }
+  .topbar {
+    position: fixed;
+    width: 100%;
+  }
+  .page-wrapper {
+    padding-top: 67px;
+  }
 }
 
 .fixed-layout {
-    .left-sidebar,
-    .topbar {
-        position: fixed;
-    }
-    .topbar {
-        width: 100%;
-    }
-    .page-wrapper {
-        padding-top: 67px;
-    }
+  .left-sidebar,
+  .topbar {
+    position: fixed;
+  }
+  .topbar {
+    width: 100%;
+  }
+  .page-wrapper {
+    padding-top: 67px;
+  }
 }
 /*******************
 Mini sidebar
 ******************/
 
-@media(min-width:769px) {
-    .left-sidebar:hover {
-        left: 0px;
+@media (min-width: 769px) {
+  .left-sidebar:hover {
+    left: 0px;
+  }
+  .navbar-header {
+    margin-left: 60px;
+    flex-shrink: 0;
+    .navbar-brand {
+      padding-top: 0px;
     }
-    .navbar-header {
-        margin-left: 60px;
-        flex-shrink: 0;
-        .navbar-brand {
-            padding-top: 0px;
-        }
-    }
-    .lock-nav {
-        .left-sidebar {
-            left: 0px;
-            width: 220px;
-        }
-        .page-wrapper,
-        .footer {
-            margin-left: 220px;
-        }
-        .topbar {
-            padding-left: 220px;
-            .navbar-header {
-                margin-left: 0px;
-            }
-        }
-    }
-}
-
-@media(max-width:768px) {
-    .show-sidebar {
-        .left-sidebar {
-            left: 0px;
-        }
-    }
+  }
+  .lock-nav {
     .left-sidebar {
-        left: -260px;
+      left: 0px;
+      width: 220px;
     }
+    .page-wrapper,
+    .footer {
+      margin-left: 220px;
+    }
+    .topbar {
+      padding-left: 220px;
+      .navbar-header {
+        margin-left: 0px;
+      }
+    }
+  }
 }
 
-
+@media (max-width: 768px) {
+  .show-sidebar {
+    .left-sidebar {
+      left: 0px;
+    }
+  }
+  .left-sidebar {
+    left: -260px;
+  }
+}

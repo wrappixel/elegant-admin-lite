@@ -4,27 +4,22 @@ Author: Niravjoshi / Wrappixel
 File: scss
 */
 
-@import 'variable';  
+@import "variable";
 
-
-@import 'colors/default-dark'; 
-
+@import "colors/default-dark";
 
 // Import Bootstrap source files
 @import "../../../assets/node_modules/bootstrap/scss/bootstrap";
 
 //This is for the icons
-@import '../../../assets/icons/font-awesome/css/font-awesome.min.css';
-@import '../../../assets/icons/themify-icons/themify-icons.css'; 
-
+@import "../../../assets/icons/font-awesome/css/font-awesome.min.css";
+@import "../../../assets/icons/themify-icons/themify-icons.css";
 
 //This is the core files
 
-@import 'core/core';
-@import 'widgets/widgets';
-@import 'responsive';
-
+@import "core/core";
+@import "widgets/widgets";
+@import "responsive";
 
 //In This scss you can write your scss
-@import 'custom'; 
-
+@import "custom";
