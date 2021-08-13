@@ -21,7 +21,7 @@
 <h2>Resources</h2>
 <ul>
 <li>  
-  Live Demo: <a href="https://www.wrappixel.com/demos/free-admin-templates/elegant-admin-lite/html/index.html" rel="nofollow">https://www.wrappixel.com/demos/free-admin-templates/elegant-admin-lite/html/index.html</a>
+  Live Demo: <a href="https://demos.wrappixel.com/free-admin-templates/bootstrap/elegant-bootstrap-free/landingpage/index.html" rel="nofollow">https://demos.wrappixel.com/free-admin-templates/bootstrap/elegant-bootstrap-free/landingpage/index.html</a>
 </li>
 <li>
     Download Page: <a href="https://www.wrappixel.com/templates/elegant-admin-lite/" rel="nofollow">
@@ -58,7 +58,7 @@
 </a>
 <p>
    Checkout our premium version of Elegant Bootstrap Admin for lots more features and ready to use page templates.<br>
-   <a href="https://www.wrappixel.com/demos/admin-templates/elegant-admin/modern/">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/elegant-admin/">Download</a>
+   <a href="https://demos.wrappixel.com/premium-admin-templates/bootstrap/elegant-bootstrap/modern/">Check Live Preview</a> | <a href="https://www.wrappixel.com/templates/elegant-admin/">Download</a>
 </p>
 
 <!-- Useful Links of Template -->
